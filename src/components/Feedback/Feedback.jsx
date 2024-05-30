@@ -11,8 +11,8 @@ export default function Feedback({
   return (
     <div className={css.feedbackList}>
       <p className={css.feedbackItem}>Good: {good}</p>
-      <p className={css.feedbackItem}>Neutral: {bad} </p>
-      <p className={css.feedbackItem}>Bad: {neutral}</p>
+      <p className={css.feedbackItem}>Neutral: {neutral} </p>
+      <p className={css.feedbackItem}>Bad: {bad}</p>
       <p className={css.feedbackItem}>Total: {total}</p>
       <p
         className={clsx(
